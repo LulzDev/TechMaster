@@ -8,6 +8,21 @@
 
 import UIKit
 
+extension String {
+    func reverseString() -> String {
+        var reversedString: String = ""
+        var inputArray: [Character] = [Character]()
+        for character in self {
+            inputArray.append(character)
+        }
+        
+        for var index = inputArray.count - 1; index >= 0; --index {
+            reversedString += String(inputArray[index])
+        }
+        return reversedString
+    }
+}
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var input: UITextField!
@@ -37,14 +52,7 @@ class ViewController: UIViewController {
         
         if let str = input.text {
             inputString = str
-            var inputArray: [Character] = [Character]()
-            for character in inputString {
-                inputArray.append(character)
-            }
-            
-            for var index = inputArray.count - 1; index >= 0; --index {
-                reversedString += String(inputArray[index])
-            }
+            reversedString = inputString.reverseString()
             input.text = reversedString
             
             if reversedString == originalString {
