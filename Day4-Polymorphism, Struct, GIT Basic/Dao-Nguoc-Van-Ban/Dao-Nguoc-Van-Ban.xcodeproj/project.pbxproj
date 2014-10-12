@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		154B095B19EA6F6600B1176E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B095A19EA6F6600B1176E /* AppDelegate.swift */; };
+		154B095D19EA6F6600B1176E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B095C19EA6F6600B1176E /* ViewController.swift */; };
+		154B096019EA6F6600B1176E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154B095E19EA6F6600B1176E /* Main.storyboard */; };
+		154B096219EA6F6600B1176E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154B096119EA6F6600B1176E /* Images.xcassets */; };
+		154B096519EA6F6600B1176E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 154B096319EA6F6600B1176E /* LaunchScreen.xib */; };
+		154B097119EA6F6700B1176E /* Dao_Nguoc_Van_BanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B097019EA6F6700B1176E /* Dao_Nguoc_Van_BanTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		154B096B19EA6F6700B1176E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 154B094D19EA6F6600B1176E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 154B095419EA6F6600B1176E;
+			remoteInfo = "Dao-Nguoc-Van-Ban";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		154B095519EA6F6600B1176E /* Dao-Nguoc-Van-Ban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dao-Nguoc-Van-Ban.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		154B095919EA6F6600B1176E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		154B095A19EA6F6600B1176E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		154B095C19EA6F6600B1176E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		154B095F19EA6F6600B1176E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		154B096119EA6F6600B1176E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		154B096419EA6F6600B1176E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		154B096A19EA6F6700B1176E /* Dao-Nguoc-Van-BanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dao-Nguoc-Van-BanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		154B096F19EA6F6700B1176E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		154B097019EA6F6700B1176E /* Dao_Nguoc_Van_BanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dao_Nguoc_Van_BanTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		154B095219EA6F6600B1176E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154B096719EA6F6700B1176E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		154B094C19EA6F6600B1176E = {
+			isa = PBXGroup;
+			children = (
+				154B095719EA6F6600B1176E /* Dao-Nguoc-Van-Ban */,
+				154B096D19EA6F6700B1176E /* Dao-Nguoc-Van-BanTests */,
+				154B095619EA6F6600B1176E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		154B095619EA6F6600B1176E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				154B095519EA6F6600B1176E /* Dao-Nguoc-Van-Ban.app */,
+				154B096A19EA6F6700B1176E /* Dao-Nguoc-Van-BanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		154B095719EA6F6600B1176E /* Dao-Nguoc-Van-Ban */ = {
+			isa = PBXGroup;
+			children = (
+				154B095A19EA6F6600B1176E /* AppDelegate.swift */,
+				154B095C19EA6F6600B1176E /* ViewController.swift */,
+				154B095E19EA6F6600B1176E /* Main.storyboard */,
+				154B096119EA6F6600B1176E /* Images.xcassets */,
+				154B096319EA6F6600B1176E /* LaunchScreen.xib */,
+				154B095819EA6F6600B1176E /* Supporting Files */,
+			);
+			path = "Dao-Nguoc-Van-Ban";
+			sourceTree = "<group>";
+		};
+		154B095819EA6F6600B1176E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				154B095919EA6F6600B1176E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		154B096D19EA6F6700B1176E /* Dao-Nguoc-Van-BanTests */ = {
+			isa = PBXGroup;
+			children = (
+				154B097019EA6F6700B1176E /* Dao_Nguoc_Van_BanTests.swift */,
+				154B096E19EA6F6700B1176E /* Supporting Files */,
+			);
+			path = "Dao-Nguoc-Van-BanTests";
+			sourceTree = "<group>";
+		};
+		154B096E19EA6F6700B1176E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				154B096F19EA6F6700B1176E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		154B095419EA6F6600B1176E /* Dao-Nguoc-Van-Ban */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154B097419EA6F6700B1176E /* Build configuration list for PBXNativeTarget "Dao-Nguoc-Van-Ban" */;
+			buildPhases = (
+				154B095119EA6F6600B1176E /* Sources */,
+				154B095219EA6F6600B1176E /* Frameworks */,
+				154B095319EA6F6600B1176E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dao-Nguoc-Van-Ban";
+			productName = "Dao-Nguoc-Van-Ban";
+			productReference = 154B095519EA6F6600B1176E /* Dao-Nguoc-Van-Ban.app */;
+			productType = "com.apple.product-type.application";
+		};
+		154B096919EA6F6700B1176E /* Dao-Nguoc-Van-BanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154B097719EA6F6700B1176E /* Build configuration list for PBXNativeTarget "Dao-Nguoc-Van-BanTests" */;
+			buildPhases = (
+				154B096619EA6F6700B1176E /* Sources */,
+				154B096719EA6F6700B1176E /* Frameworks */,
+				154B096819EA6F6700B1176E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				154B096C19EA6F6700B1176E /* PBXTargetDependency */,
+			);
+			name = "Dao-Nguoc-Van-BanTests";
+			productName = "Dao-Nguoc-Van-BanTests";
+			productReference = 154B096A19EA6F6700B1176E /* Dao-Nguoc-Van-BanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		154B094D19EA6F6600B1176E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = LulzDev;
+				TargetAttributes = {
+					154B095419EA6F6600B1176E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					154B096919EA6F6700B1176E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 154B095419EA6F6600B1176E;
+					};
+				};
+			};
+			buildConfigurationList = 154B095019EA6F6600B1176E /* Build configuration list for PBXProject "Dao-Nguoc-Van-Ban" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 154B094C19EA6F6600B1176E;
+			productRefGroup = 154B095619EA6F6600B1176E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				154B095419EA6F6600B1176E /* Dao-Nguoc-Van-Ban */,
+				154B096919EA6F6700B1176E /* Dao-Nguoc-Van-BanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		154B095319EA6F6600B1176E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154B096019EA6F6600B1176E /* Main.storyboard in Resources */,
+				154B096519EA6F6600B1176E /* LaunchScreen.xib in Resources */,
+				154B096219EA6F6600B1176E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154B096819EA6F6700B1176E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		154B095119EA6F6600B1176E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154B095D19EA6F6600B1176E /* ViewController.swift in Sources */,
+				154B095B19EA6F6600B1176E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154B096619EA6F6700B1176E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154B097119EA6F6700B1176E /* Dao_Nguoc_Van_BanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		154B096C19EA6F6700B1176E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 154B095419EA6F6600B1176E /* Dao-Nguoc-Van-Ban */;
+			targetProxy = 154B096B19EA6F6700B1176E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		154B095E19EA6F6600B1176E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				154B095F19EA6F6600B1176E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		154B096319EA6F6600B1176E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				154B096419EA6F6600B1176E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		154B097219EA6F6700B1176E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		154B097319EA6F6700B1176E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		154B097519EA6F6700B1176E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dao-Nguoc-Van-Ban/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		154B097619EA6F6700B1176E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dao-Nguoc-Van-Ban/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		154B097819EA6F6700B1176E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dao-Nguoc-Van-BanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dao-Nguoc-Van-Ban.app/Dao-Nguoc-Van-Ban";
+			};
+			name = Debug;
+		};
+		154B097919EA6F6700B1176E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dao-Nguoc-Van-BanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dao-Nguoc-Van-Ban.app/Dao-Nguoc-Van-Ban";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		154B095019EA6F6600B1176E /* Build configuration list for PBXProject "Dao-Nguoc-Van-Ban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154B097219EA6F6700B1176E /* Debug */,
+				154B097319EA6F6700B1176E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		154B097419EA6F6700B1176E /* Build configuration list for PBXNativeTarget "Dao-Nguoc-Van-Ban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154B097519EA6F6700B1176E /* Debug */,
+				154B097619EA6F6700B1176E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		154B097719EA6F6700B1176E /* Build configuration list for PBXNativeTarget "Dao-Nguoc-Van-BanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154B097819EA6F6700B1176E /* Debug */,
+				154B097919EA6F6700B1176E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 154B094D19EA6F6600B1176E /* Project object */;
+}
