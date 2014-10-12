@@ -1,1 +1,10 @@
 Nội dung bài tập :
+
+Bài 1: Xử lý dãy số
+	Cho vào một dãy số tự nhiên (integer). Hãy tìm số lớn nhất, nhỏ nhất và số gần giá trị trung bình nhất
+
+Bài 2: Đảo từ trong văn bản
+	Đọc vào một văn bản text. Sau đó duyệt qua từ từ rồi đảo ngược ký tự. Ví dụ hello -> olleh. Cần kiểm tra lại sau 2 lần đảo từ thì lại có văn bản giống hệt với văn bản gốc
+
+Bài 3: Mô phỏng quần thể các động vật trong rừng
+	Trong một khu rừng có loại vật khác nhau. Sẻ những con cùng loài khác giới tính mới có thể kết hợp để đẻ con. Hãy tạo ra 1000 con vật các loài (mèo, chó, hổ, báo, ngựa, thỏ.....). Mỗi loài có độ tuổi sinh sản nhất định và tuổi chết. Mỗi vòng lặp là một năm tuổi. Con nào đến tuổi trưởng thành có thể giao phối. Đã giao phối với con này thì thôi con khác. Đến tuổi chết thì remove ra khỏi mảng. Đẻ thêm con thì thêm vào mảng
