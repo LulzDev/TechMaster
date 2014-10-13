@@ -13,6 +13,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        var demo = DemoAnimal()
+        demo.addAnimal()
+        println("Animal before get life circle")
+        demo.showAnimals()
+        
+        demo.getLifeCircle()
+        
+        println("Animal after get life circle")
+        demo.showAnimals()
+        
     }
 
     override func didReceiveMemoryWarning() {
