@@ -25,53 +25,43 @@ extension String {
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var input: UITextField!
+    @IBOutlet weak var input: UITextView!
     @IBOutlet weak var statusLabel: UILabel!
     
-    var isFirst: Bool = true
     var originalString: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        originalString = readFile("test", fileType: "txt")
+        input.text = originalString
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
 
 
     @IBAction func reverseText(sender: AnyObject) {
-        if isFirst {
-            originalString = input.text
-            isFirst = false
-        }
-        
-        var inputString: String = ""
         var reversedString: String = ""
-        
-        if let str = input.text {
-            inputString = str
-            reversedString = inputString.reverseString()
-            input.text = reversedString
-            
-            if reversedString == originalString {
-                statusLabel.text = "Chuỗi ban đầu"
-            } else {
-                statusLabel.text = "Chuỗi đã đảo ngược"
-            }
-            
-        } else {
-            statusLabel.text = "Vui lòng nhập văn bản"
-        }
-        
-    }
 
-    @IBAction func clear(sender: AnyObject) {
-        isFirst = true
-        originalString = ""
-        input.text = ""
-        statusLabel.text = nil
+        var inputString = input.text
+        reversedString = inputString.reverseString()
+        input.text = reversedString
+            
+        if reversedString == originalString {
+            statusLabel.text = "Chuỗi ban đầu"
+        } else {
+            statusLabel.text = "Chuỗi đã đảo ngược"
+        }
+    }
+    
+    func readFile(fileName: String, fileType: String) -> String {
+        var fileRoot = NSBundle.mainBundle().pathForResource(fileName, ofType: fileType)
+        var content = NSString.stringWithContentsOfFile(fileRoot!, encoding: NSUTF8StringEncoding, error: nil)
+        return content
     }
 }
 

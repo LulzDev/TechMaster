@@ -13,6 +13,7 @@
 		154B096219EA6F6600B1176E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154B096119EA6F6600B1176E /* Images.xcassets */; };
 		154B096519EA6F6600B1176E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 154B096319EA6F6600B1176E /* LaunchScreen.xib */; };
 		154B097119EA6F6700B1176E /* Dao_Nguoc_Van_BanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B097019EA6F6700B1176E /* Dao_Nguoc_Van_BanTests.swift */; };
+		15A0A4BC19EFA33A008223D3 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 15A0A4BB19EFA33A008223D3 /* test.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		154B096A19EA6F6700B1176E /* Dao-Nguoc-Van-BanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dao-Nguoc-Van-BanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		154B096F19EA6F6700B1176E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		154B097019EA6F6700B1176E /* Dao_Nguoc_Van_BanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dao_Nguoc_Van_BanTests.swift; sourceTree = "<group>"; };
+		15A0A4BB19EFA33A008223D3 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		154B095719EA6F6600B1176E /* Dao-Nguoc-Van-Ban */ = {
 			isa = PBXGroup;
 			children = (
+				15A0A4BB19EFA33A008223D3 /* test.txt */,
 				154B095A19EA6F6600B1176E /* AppDelegate.swift */,
 				154B095C19EA6F6600B1176E /* ViewController.swift */,
 				154B095E19EA6F6600B1176E /* Main.storyboard */,
@@ -194,6 +197,7 @@
 			files = (
 				154B096019EA6F6600B1176E /* Main.storyboard in Resources */,
 				154B096519EA6F6600B1176E /* LaunchScreen.xib in Resources */,
+				15A0A4BC19EFA33A008223D3 /* test.txt in Resources */,
 				154B096219EA6F6600B1176E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 				154B097619EA6F6700B1176E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		154B097719EA6F6700B1176E /* Build configuration list for PBXNativeTarget "Dao-Nguoc-Van-BanTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				154B097919EA6F6700B1176E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
