@@ -9,15 +9,9 @@
 import Foundation
 
 class Horse: Animal {
-    override var age: Int {
-        return 37
-    }
-    override var adult: Int {
-        return 13
-    }
     
     override func mate(other: Animal) -> Animal {
-        var aHorse = Horse(name: "New Horse")
+        var aHorse = Horse(name: "A horse", age: 37, adult: 13)
         return aHorse
     }
 }

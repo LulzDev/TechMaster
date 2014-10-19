@@ -60,8 +60,8 @@ class ViewController: UIViewController {
     
     func readFile(fileName: String, fileType: String) -> String {
         var fileRoot = NSBundle.mainBundle().pathForResource(fileName, ofType: fileType)
-        var content = NSString.stringWithContentsOfFile(fileRoot!, encoding: NSUTF8StringEncoding, error: nil)
-        return content
+        var content = String.stringWithContentsOfFile(fileRoot!, encoding: NSUTF8StringEncoding, error: nil)
+        return content!
     }
 }
 

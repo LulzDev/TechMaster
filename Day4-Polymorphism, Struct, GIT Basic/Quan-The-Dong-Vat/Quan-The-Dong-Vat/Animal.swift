@@ -14,27 +14,38 @@ enum AnimalGender: String {
 }
 
 class Animal {
-    var age: Int {return 100}
-    var adult: Int {return 50}
-    var gender: AnimalGender
+    var age: Int
+    var currentAge: Int = 0
+    var adult: Int
+    var gender: AnimalGender!
     var name: String
-    var canMate: Bool
+    var canMate: Bool = true
     
-    init(name: String) {
+    
+    init(name: String, age: Int, adult: Int) {
+        self.name = name
+        self.age = age
+        self.adult = adult
+        self.gender = getRandomGender()
+
+    }
+    
+    func getRandomGender() -> AnimalGender {
         let index = arc4random() % 2
         var gnd: AnimalGender
         if index == 0 {
-            gnd = AnimalGender.Female
+            return AnimalGender.Female
         } else {
-            gnd = AnimalGender.Male
+            return AnimalGender.Male
         }
-        self.name = name
-        self.gender = gnd
-        self.canMate = true
+    }
+    
+    func incrementAge() {
+        self.currentAge += 1
     }
     
     func mate(other: Animal) -> Animal {
-        var newAnimal = Animal(name: "New Animal")
+        var newAnimal = Animal(name: "New animal", age: 100, adult: 50)
         return newAnimal
     }
 }
