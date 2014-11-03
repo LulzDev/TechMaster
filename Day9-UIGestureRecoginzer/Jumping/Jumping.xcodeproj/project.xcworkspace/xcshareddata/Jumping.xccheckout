@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>658ED981-7F98-4694-BED4-B42CBD43DD55</string>
+	<string>25FDC90F-59B1-4EE3-BCBE-91EAB8B06596</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Day08Exercise</string>
+	<string>Jumping</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>16C1DFDCA50CD25208F7DA5641076826B7843FBB</key>
 		<string>https://github.com/LulzDev/TechMaster.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Day8-UIView animation, transformation/Day08Exercise/Day08Exercise.xcodeproj</string>
+	<string>Day9-UIGestureRecoginzer/Jumping/Jumping.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>16C1DFDCA50CD25208F7DA5641076826B7843FBB</key>
