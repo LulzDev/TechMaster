@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B10634F5-076A-4749-8F99-447A772B0041</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Day12-Autolayout</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>16C1DFDCA50CD25208F7DA5641076826B7843FBB</key>
+		<string>https://github.com/LulzDev/TechMaster.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Day12-Autolayout/Day12-Autolayout.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>16C1DFDCA50CD25208F7DA5641076826B7843FBB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LulzDev/TechMaster.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>16C1DFDCA50CD25208F7DA5641076826B7843FBB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>16C1DFDCA50CD25208F7DA5641076826B7843FBB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TechMaster</string>
+		</dict>
+	</array>
+</dict>
+</plist>
